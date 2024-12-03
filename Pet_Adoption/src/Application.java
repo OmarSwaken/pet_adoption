@@ -197,15 +197,29 @@ public class Application {
     
             switch (choice) {
                 case 1:
-                    Screen.displayPets(pets);
+                    //manage User Profiles
                     break;
                 case 2:
-                currentuser.addShelter(555);
-
+                        //Pet Management
                     break;
                 case 3:
-                    Screen.displayMessage("Logging out...");
-                    return;   
+                    // Addopter Management
+                    break;
+                case 4:
+                    //Shelter Management
+                    break;
+                case 5:
+                //Adoption Process Management
+                    break;   
+                case 6:
+                // Notification Management
+                    break;
+                case 7:
+                //Reporting and Analytics
+                    break;
+                case 8:
+                System.out.println("log out");
+                return;
                 default:
                     Screen.displayMessage("Invalid choice.");
             }
@@ -216,12 +230,24 @@ public class Application {
             Screen.showAdopterMenu();
             int choice = Screen.getIntInput("");
             switch (choice) {
-                case 1: Screen.displayPets(pets);
+                case 1: // manage profile
+                currentuser.ManageProfile();
                     break;
-                case 2: System.out.println("NOT YET");
+                case 2:// Pet Exploration
                     break;
-                case 3 : System.out.println("log out");
-                    return;
+                case 3 ://Adopte a Pet
+                    break;
+                case 4:
+                //Notifications
+                break;
+                case 5:
+                //Adoption History
+                break;
+                case 6:
+                System.out.println("log out");
+
+                return;
+                
                 default : Screen.displayMessage("Invalid choice.");
             }
         }
