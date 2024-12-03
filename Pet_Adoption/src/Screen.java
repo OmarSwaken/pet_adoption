@@ -14,17 +14,25 @@ public class Screen {
 
     public static void showAdminMenu() {
         System.out.println("=== Admin Menu ===");
-        System.out.println("1. View Pets");
-        System.out.println("2. Add Shelter");
-        System.out.println("3. Log Out");
+        System.out.println("1. Manage User Profiles on System");
+        System.out.println("2. Pet Management");
+        System.out.println("3. Addopter Management");
+        System.out.println("4. Shelter Management");
+        System.out.println("5. Adoption Process Management");
+        System.out.println("6. Notification Management");
+        System.out.println("7. Reporting and Analytics");
+        System.out.println("8. Log Out");
         System.out.print("Enter your choice: ");
     }
 
     public static void showAdopterMenu() {
         System.out.println("=== Adopter Menu ===");
-        System.out.println("1. View Available Pets");
-        System.out.println("2. Adopt Pet");
-        System.out.println("3. Log Out");
+        System.out.println("1. manage profile");
+        System.out.println("2. Pet Exploration");
+        System.out.println("3. Adoption Process");
+        System.out.println("4. Notifications");
+        System.out.println("5. Adoption History");
+        System.out.println("6. Log Out");
         System.out.print("Enter your choice: ");
     }
 
